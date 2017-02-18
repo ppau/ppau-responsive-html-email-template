@@ -2,7 +2,7 @@
 
 The purpose of this repository is to hold a responsive HTML email template that can be rendered into various other template formats needed for Party email communications and systems.
 
-The `variables.json` file contains the configuration, this is where each template for other systems or applications can define a search and replace base on HTML comment tag format in `email.html`, the variables are rendered into the `email.html`, the css style is than applied as inlined, with the final result saved in the automatically created `build` directory where it can be updated into other systems or applications as needed.
+The `variables.json` file contains the configuration, this is where each template for other systems or applications can define a search and replace based on the HTML comment tag format found in `email.html`. The variables are rendered into a copy of `email.html`, the css style is then applied as inline on styled elements, with the final result saved in the automatically created `build` directory where it can then be updated into other systems or applications as needed.
 
 ### Developer setup
 
