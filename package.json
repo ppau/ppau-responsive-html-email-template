@@ -1,0 +1,24 @@
+{
+  "name": "ppau-responsive-html-email-template",
+  "version": "1.0.0",
+  "description": "An HTML responsive email template for Pirate Party Australia",
+  "main": "build.js",
+  "scripts": {
+    "start": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ppau/responsive-html-email-template.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ppau/responsive-html-email-template/issues"
+  },
+  "homepage": "https://github.com/ppau/responsive-html-email-template",
+  "dependencies": {
+    "juice": "^4.0.2"
+  }
+}

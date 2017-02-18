@@ -1,0 +1,12 @@
+{
+  "Anno": {
+    "logo_img": "<img alt=\"Pirate Party Australia Logo\" width=\"350\" src=\"https://www.pirateparty.org.au/media/emails/2017/logos/logo350px.png\" />",
+    "content": "<!--opening--><!--/opening-->\n\n<!-- tmpl_var message_body -->\n\n<!--signature-->",
+    "unsubscribe": "<!--signature-->\n<br>\n<hr>\n<a href=\"<!-- tmpl_var PROGRAM_URL -->/list/<!-- tmpl_var list_settings.list -->/\"><!-- tmpl_var list_settings.list_name --></a> mailing list &mdash; \n<a href=\"<!-- tmpl_var PROGRAM_URL -->/profile_login/<!-- tmpl_var subscriber.email_name -->/<!-- tmpl_var subscriber.email_domain -->/\">Manage</a> -\n<a href=\"<!-- tmpl_var list_unsubscribe_link -->\">Unsubscribe</a>\n<!--/signature-->"
+  },
+  "piratedb": {
+    "logo_img": "<img alt=\"Pirate Party Australia Logo\" width=\"350\" src=\"https://www.pirateparty.org.au/media/emails/2017/logos/logo350px.png\" />",
+    "content": "<%- markdownHtmlContent %>"
+  },
+  "email-inline": {}
+}

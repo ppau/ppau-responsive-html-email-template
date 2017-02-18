@@ -1,3 +1,23 @@
+# Pirate Party Australia - Responsive HTML email template
+
+The purpose of this repository is to hold a responsive HTML email template that can be rendered into various other template formats needed for Party email communications and systems.
+
+The `variables.json` file contains the configuration, this is where each template for other systems or applications can define a search and replace base on HTML comment tag format in `email.html`, the variables are rendered into the `email.html`, the css style is than applied as inlined, with the final result saved in the automatically created `build` directory where it can be updated into other systems or applications as needed.
+
+### Developer setup
+
+1. Checkout the repository to you local system
+
+0. Run the `npm install` command
+
+0. Run the `npm start` or `npm run build` to compile the various templates into the `build` directory.
+
+Your compiled templates can now be copied into their respective systems.
+
+### Forked
+ 
+Forked from https://github.com/leemunroe/responsive-html-email-template.git
+
 # Really Simple Responsive HTML Email Template
 
 Sometimes all you want is a really simple responsive HTML email template. Here it is.
