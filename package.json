@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/ppau/responsive-html-email-template",
   "dependencies": {
-    "juice": "^4.0.2"
+    "juice": "^4.1.0"
   }
 }
